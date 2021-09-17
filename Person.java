@@ -8,6 +8,6 @@ public class Person {
     }
     
     public String toString() {
-        return name + ": " + age + " years old";
+        return name + " is " + age + " years old";
     }
 }
