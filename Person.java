@@ -7,6 +7,10 @@ public class Person {
         this.age = age;
     }
     
+    public getName(){
+		return name;
+    }
+
     public String toString() {
         return name + " is " + age + " years old";
     }
